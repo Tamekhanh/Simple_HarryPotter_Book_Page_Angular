@@ -1,0 +1,16 @@
+.book-list {
+  padding: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+  background-color: white;
+  app-book-list-card {
+    width: 15%;
+    min-width: 250px;
+  }
+}
+.book-contain {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}

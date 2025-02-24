@@ -1,0 +1,41 @@
+.book-card {
+  cursor: pointer;
+  background-color: white;
+  border: 3px solid black;
+  padding: 10px;
+  margin: 0 0;
+  border-radius: 16px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  width: 100%;
+  h2 {
+    margin: 0;
+    font-size: 1.5em;
+  }
+  .book-desc {
+    height: 3em;
+    line-height: 1.5em;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+  }
+}
+
+.book-card h2 {
+  margin-top: 0;
+}
+
+.book-card img.book-cover {
+  width: 100%;
+
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+.img-book-contain {
+  width: 210px;
+  height: 350px;
+  overflow: hidden;
+}

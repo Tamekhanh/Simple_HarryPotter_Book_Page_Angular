@@ -1,0 +1,14 @@
+<div *ngIf="currentproduct$ | async as book" class="contain">
+    <div class="contain-left">
+        <div class="cover">
+            <img src="{{book.cover}}" alt="">
+        </div>
+    </div>
+    <div class="contain-right">
+        <h1>{{ book.title }}</h1>
+        <h4><b>Origin name:</b>  {{book.originalTitle}}</h4>
+        <p>{{book.description}}</p>
+        <h5><b>Release Date:</b> {{book.releaseDate}}</h5>
+        <h5><b>Pages:</b>  {{book.pages}}</h5>
+    </div>
+</div>

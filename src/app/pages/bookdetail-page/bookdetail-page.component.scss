@@ -1,0 +1,33 @@
+.contain {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  .contain-left {
+    min-width: 500px;
+    margin: 10px 0px 10px 30px;
+    border-radius: 25px 0px 0px 25px;
+    width: 50%;
+    padding: 50px;
+    border: 5px black solid;
+    display: flex;
+    justify-content: center;
+    .cover {
+      width: 60%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      img {
+        max-height: 100%;
+        width: 60vh;
+      }
+    }
+  }
+  .contain-right {
+    min-width: 500px;
+    margin: 10px 30px 10px 0px;
+    border-radius: 0px 25px 25px 0px;
+    width: 50%;
+    padding: 50px;
+    border: 5px black solid;
+  }
+}

@@ -1,0 +1,3 @@
+<div *ngIf="book$ | async as books" class="book-list">
+    <app-book-list-card *ngFor="let book of books" [book]="book"></app-book-list-card>
+</div>
